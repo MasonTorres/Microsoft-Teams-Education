@@ -14,8 +14,8 @@ Microsoft Teams Automation
 ## Design
 
 ### Source Data
-Create a source JSON file to capture all the studentos, owners, units, classes and labs
-Ask your friendly Student Information System Administrator to generate the JSON source file - or adapt to make calls directly to graph. 
+- Create a source JSON file to capture all the students, owners, units, classes and labs
+- Ask your friendly Student Information System Administrator to generate the JSON source file - or adapt to make calls directly to graph. 
 
 ```javascript
 [
@@ -72,14 +72,16 @@ Ask your friendly Student Information System Administrator to generate the JSON 
 Use Auzre Automation to schedule the creation and update of Microsoft Teams using PowerShell. 
 
 You will need to create two App Registrations and a Teams Owner service account in Azure AD.
-    App 1 - Will create the Office 365 Groups / Teams and manage the adding and removal of Teams, users and channels
-    App 2 / Teams Owner - Will create the Teams Meetings for each channel
+- App 1 - Will create the Office 365 Groups / Teams and manage the adding and removal of Teams, users and channels
+- App 2 / Teams Owner - Will create the Teams Meetings for each channel
 
 The Automation Powershell 
- ** Creates a new Team if it does not alredy exist. **
- ** Adds Channels **
- ** Adds Tabs to General Channel - Library or LMS etc **
- ** Adds users and owners to Group **
+- ** Get Azure AD Application access token **
+- ** Get Azure AD Teams Automation (account) Delegate access token **
+- ** Creates a new Team if it does not alredy exist. **
+- ** Adds Channels **
+- ** Adds Tabs to General Channel - Library or LMS etc **
+- ** Adds users and owners to Group **
 
 
 
