@@ -1,4 +1,4 @@
-<img src="https://ecprodpublic01.blob.core.windows.net/store/m_designs.jpg" title="M" alt="M">
+<img src="https://ecprodpublic01.blob.core.windows.net/store/m_designs.jpg" title="M" alt="M" width="100" height="100">
 
 # Microsoft Teams - Education
 Microsoft Teams Automation
@@ -8,13 +8,13 @@ Microsoft Teams Automation
 > Microsoft Teams, Azure Automation, PowerShell, Microsoft Graph API, Azure Labs, Education
 
 ## Microsoft References
-https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0
-https://github.com/microsoftgraph/microsoft-graph-docs/tree/master/api-reference
+- https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0 
+- https://github.com/microsoftgraph/microsoft-graph-docs/tree/master/api-reference
 
 ## Design
 
 ### Source Data
-Create a source JSON file to capture all the students, owners, units, classes and labs
+Create a source JSON file to capture all the studentos, owners, units, classes and labs
 Ask your friendly Student Information System Administrator to generate the JSON source file - or adapt to make calls directly to graph. 
 
 ```javascript
