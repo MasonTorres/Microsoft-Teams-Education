@@ -76,12 +76,12 @@ You will need to create two App Registrations and a Teams Owner service account 
 - App 2 / Teams Owner - Will create the Teams Meetings for each channel
 
 The Automation Powershell 
-- ** Get Azure AD Application access token **
-- ** Get Azure AD Teams Automation (account) Delegate access token **
-- ** Creates a new Team if it does not alredy exist. **
-- ** Adds Channels **
-- ** Adds Tabs to General Channel - Library or LMS etc **
-- ** Adds users and owners to Group **
+- **Get Azure AD Application access token**
+- **Get Azure AD Teams Automation (account) Delegate access token**
+- **Creates a new Team if it does not alredy exist.**
+- **Adds Channels**
+- **Adds Tabs to General Channel - Library or LMS etc**
+- **Adds users and owners to Group**
 
 
 
